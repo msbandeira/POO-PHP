@@ -29,8 +29,8 @@ $produto1 = new Produto("Produto A");
 $produto2 = new Produto("Produto B");
 
 // Exibindo o número total de instâncias criadas
-echo "Número total de instâncias: " . Produto::getContador() . "<br>";
+echo "Número total de instâncias: " . Produto::getContador() . "\n";
 
 // Exibindo o nome dos produtos
-echo "Nome do Produto 1: " . $produto1->getNome() . "<br>";
-echo "Nome do Produto 2: " . $produto2->getNome() . "<br>";
+echo "Nome do Produto 1: " . $produto1->getNome() . "\n";
+echo "Nome do Produto 2: " . $produto2->getNome() . "\n";

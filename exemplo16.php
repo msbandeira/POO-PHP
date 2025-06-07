@@ -19,6 +19,6 @@ class Visibilidade
 
 $VisibilidadeTeste = new Visibilidade(1,2,3);
 echo "Atributo Public : $VisibilidadeTeste->varPublico";
-//echo "Atributo Protected : $VisibilidadeTeste->varProtegido";
-//echo "Atributo Privado : $VisibilidadeTeste->varPrivada";
+echo "Atributo Protected : $VisibilidadeTeste->varProtegido";
+echo "Atributo Privado : $VisibilidadeTeste->varPrivada";
 ?>

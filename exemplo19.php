@@ -28,7 +28,7 @@ class Conta
 
 $conta = new Conta(1,100);
 
-//$conta->saldo = 300; //essa variavel nao esta visivel por isso da erro.
+//$conta->saldo = 300; essa variavel nao esta visivel por isso da erro.
 
 $conta->setSaldo(300);
 $saldoAtual = $conta->getSaldo();

@@ -9,7 +9,7 @@ class AreaCalc
 	
 	static function areaCircunferencia($raio)
 	{
-		return $raio * $raio * (AreaCalc::$pi); //Aqui pode ser usado self::$pi
+		return $raio * $raio * (AreaSalc::$pi);
 	}
 }
 

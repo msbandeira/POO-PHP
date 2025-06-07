@@ -59,6 +59,10 @@ class Conta
 
 	echo "Saldo em conta: $conta1->saldo<br>";
 
-	echo "saldo na conta $conta2->numero : $conta2->saldo<br>";
+	echo "saldo na conta $conta2->numero : $conta2->saldo<br>"
+
+
+
+
 
 ?>
